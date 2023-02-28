@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/backgroundimg.jpg");
+    background-size: cover;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow:4px 3px 4px rgba(0,0,0,0.5);
+}
+li{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow:4px 3px 4px rgba(0,0,0,0.5); 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#button , #button2{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+#input{
+    color: red;
+    margin: 20px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+footer p{
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    margin: 20px;
+    opacity: 0.5;
+}
